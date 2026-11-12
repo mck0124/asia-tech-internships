@@ -1036,7 +1036,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-12"
   },
@@ -2173,6 +2173,22 @@
     ],
     "season": "—",
     "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Agentic-AI-Engineering_UNI5129-1",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Bybit",
+    "role": "[Intern] Test Development Engineer Intern",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong SAR"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
     "status": "open",
     "source": "auto",
     "added": "2026-11-12"
