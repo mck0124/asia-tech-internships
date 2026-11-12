@@ -66,12 +66,6 @@
     "type": "quant"
   },
   {
-    "company": "Jane Street",
-    "ats": "greenhouse",
-    "slug": "janestreet",
-    "type": "quant"
-  },
-  {
     "company": "Mako",
     "ats": "greenhouse",
     "slug": "mako",
@@ -561,6 +555,36 @@
     "company": "Visa",
     "ats": "workday",
     "slug": "visa|5|Visa",
+    "type": "tech"
+  },
+  {
+    "company": "Jane Street",
+    "ats": "janestreet",
+    "slug": "-",
+    "type": "quant"
+  },
+  {
+    "company": "Amazon",
+    "ats": "amazon",
+    "slug": "-",
+    "type": "tech"
+  },
+  {
+    "company": "Toss (토스)",
+    "ats": "toss",
+    "slug": "-",
+    "type": "tech"
+  },
+  {
+    "company": "NAVER",
+    "ats": "naver",
+    "slug": "-",
+    "type": "tech"
+  },
+  {
+    "company": "Kakao (카카오)",
+    "ats": "kakao",
+    "slug": "-",
     "type": "tech"
   }
 ]

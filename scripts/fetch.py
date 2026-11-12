@@ -13,6 +13,7 @@ import json
 import pathlib
 import re
 import sys
+import urllib.parse
 import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -27,9 +28,11 @@ COUNTRY_PATTERNS = {
 }
 EARLY = re.compile(r"\bintern(s|ship)?\b|\bgraduate\b|new[\s-]?grad|\bcampus\b|summer analyst|\bco-?op\b|\bplacement\b|인턴|신입", re.I)
 TECH = re.compile(r"software|engineer|developer|quant|research|trad(er|ing)|data|machine learning|\bml\b|\bai\b|scien|"
-                  r"infrastructure|security|hardware|fpga|systems|\bsre\b|devops|product manag|technolog|algorithm", re.I)
+                  r"infrastructure|security|hardware|fpga|systems|\bsre\b|devops|product manag|technolog|algorithm|"
+                  r"개발|엔지니어|연구|데이터|보안|인프라|서버|백엔드|프론트|모델|\bAI\b", re.I)
 EXCLUDE = re.compile(r"recruit|audit|accounting|\bsales\b|marketing|legal|counsel|\btax\b|compliance|human resources|"
-                     r"\bpeople\b|talent|designer|\bvip\b|customer|business development|economist", re.I)
+                     r"\bpeople\b|talent|designer|\bvip\b|customer|business development|economist|"
+                     r"상담|영업|마케팅|디자인|비서|채용|인사|총무|회계|법무|어시스턴트", re.I)
 SEASON = re.compile(r"(summer|winter|spring|fall|autumn|off[\s-]?cycle)[^\d]{0,12}(20\d\d)|(20\d\d)\s*(summer|winter|spring|fall|autumn)"
                     r"|\(?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s*(to|-|–)\s*[a-z]+\s*(20\d\d)", re.I)
 
@@ -107,21 +110,94 @@ def workday(slug):
                 break
 
 
-ATS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters, "workday": workday}
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"}
+
+
+def get_browser(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=BROWSER_UA), timeout=30) as r:
+        return json.load(r)
+
+
+def janestreet(_):
+    cities = {"HKG": "Hong Kong", "SGP": "Singapore"}
+    for j in get_browser("https://www.janestreet.com/jobs/main.json"):
+        if j["city"] in cities and "Experienced" not in j["availability"]:
+            kind = "Intern" if "Intern" in j["availability"] else "New Grad"
+            yield (f"{j['position']} ({j['availability'].replace('Full-Time: ', '')})" if kind == "New Grad"
+                   else f"{j['position']} ({j['availability']})"), cities[j["city"]], \
+                f"https://www.janestreet.com/join-jane-street/position/{j['id']}/"
+
+
+def amazon(_):
+    for country in ("SGP", "HKG", "KOR"):
+        for q in ("intern", "graduate"):
+            d = get_browser("https://www.amazon.jobs/en/search.json?" + urllib.parse.urlencode(
+                {"base_query": q, "country": country, "result_limit": 100}))
+            for j in d.get("jobs", []):
+                if j.get("country_code") == country:
+                    names = {"SGP": "Singapore", "HKG": "Hong Kong", "KOR": "Seoul, Korea"}
+                    where = j.get("city") or names[country]
+                    yield j["title"], f"{where}, {names[country]}" if where != names[country] else where, \
+                        f"https://www.amazon.jobs{j['job_path']}"
+
+
+def toss(_):
+    for j in get_browser("https://api-public.toss.im/api/v3/ipd-eggnog/career/jobs")["success"]:
+        yield j["title"], (j.get("location") or {}).get("name") or "Seoul", j["absolute_url"]
+
+
+def ymd(s):
+    digits = re.sub(r"\D", "", str(s or ""))[:8]
+    return f"{digits[:4]}-{digits[4:6]}-{digits[6:8]}" if len(digits) == 8 else None
+
+
+def naver(_):
+    for first in range(0, 500, 10):
+        d = get_browser("https://recruit.navercorp.com/rcrt/loadJobList.do?annoId=&sw=&subJobCdArr=&sysCompanyCdArr="
+                        f"&empTypeCdArr=&entTypeCdArr=&workAreaCdArr=&firstIndex={first}")
+        for j in d.get("list", []):
+            title = j["annoSubject"]
+            if j.get("entTypeCdNm") == "신입" and "신입" not in title and "인턴" not in title:
+                title += " (신입)"
+            yield title, "Seongnam (Pangyo), Korea", j["jobDetailLink"], ymd(j.get("endYmd"))
+        if len(d.get("list", [])) < 10:
+            break
+
+
+def kakao(_):
+    for page in range(1, 30):
+        d = get_browser(f"https://careers.kakao.com/public/api/job-list?part=TECHNOLOGY&company=ALL&page={page}")
+        for j in d.get("jobList", []):
+            title = j["jobOfferTitle"]
+            emp = j.get("employeeTypeName") or ""
+            if ("인턴" in emp or "신입" in emp) and emp not in title:
+                title += f" ({emp})"
+            yield title, j.get("locationName") or "Korea", f"https://careers.kakao.com/jobs/{j['realId']}", ymd(j.get("endDate"))
+        if page >= d.get("totalPage", 1):
+            break
+
+
+CUSTOM = {"janestreet": janestreet, "amazon": amazon, "toss": toss, "naver": naver, "kakao": kakao}
+
+ATS = {**CUSTOM, "greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters, "workday": workday}
 
 
 def category(title, company_type):
     t = title.lower()
     if re.search(r"product manag", t):
         return "Product"
-    if re.search(r"quant|trad(er|ing)", t) or (company_type == "quant" and re.search(r"research", t)):
+    if re.search(r"quant|trad(er|ing)", t):
         return "Quant"
-    if re.search(r"machine learning|\bml\b|\bai\b|research scien|deep learning|llm|robotic|computer vision", t):
+    if re.search(r"machine learning|\bml\b|\bai\b|research scien|deep learning|llm|robotic|computer vision|"
+                 r"생성형|모델|멀티모달|번역|음성", t):
         return "AI/ML"
+    if company_type == "quant" and re.search(r"research", t):
+        return "Quant"
     if re.search(r"hardware|fpga|asic|chip|embedded|firmware|mechanical|electrical|semiconductor|package|equipment|"
+                 r"data cent(er|re)|commissioning|control engineer|"
                  r"process engineer|\bfab\b|reliability|installation", t):
         return "Hardware"
-    if re.search(r"\bdata\b", t):
+    if re.search(r"\bdata\b", t) and not re.search(r"data cent(er|re)", t):
         return "Data"
     return "SWE"
 
@@ -143,13 +219,15 @@ def season(title):
 
 def collect(src):
     out = []
-    for title, loc, url in ATS[src["ats"]](src["slug"]):
+    for item in ATS[src["ats"]](src["slug"]):
+        title, loc, url = item[:3]
+        deadline = item[3] if len(item) > 3 else None
         title = " ".join(title.split())
         countries = [c for c, p in COUNTRY_PATTERNS.items() if p.search(loc)]
         if not countries or not EARLY.search(title) or not TECH.search(title) or EXCLUDE.search(title):
             continue
         locs = [l.strip() for l in re.split(r"[;|]", loc) if l.strip()]
-        out.append({
+        entry = {
             "company": src["company"],
             "role": title,
             "category": category(title, src.get("type")),
@@ -159,7 +237,10 @@ def collect(src):
             "url": url,
             "status": "open",
             "source": "auto",
-        })
+        }
+        if deadline:
+            entry["deadline"] = deadline
+        out.append(entry)
     return out
 
 
