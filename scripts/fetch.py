@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Pull early-career tech postings in HK / SG / KR from public ATS job-board APIs
-(Greenhouse, Lever, Ashby) listed in data/sources.json, and merge them into
+(Greenhouse, Lever, Ashby, SmartRecruiters, Workday) listed in data/sources.json, and merge them into
 data/internships.json.
 
 - New matching postings are added with "source": "auto".
@@ -59,7 +59,55 @@ def ashby(slug):
         yield j["title"], "; ".join(l for l in locs if l), j["jobUrl"]
 
 
-ATS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby}
+def smartrecruiters(slug):
+    offset = 0
+    while True:
+        d = get(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100&offset={offset}")
+        for j in d.get("content", []):
+            loc = j.get("location", {})
+            where = ", ".join(x for x in (loc.get("city"), loc.get("region"), loc.get("country")) if x)
+            yield j["name"], where, f"https://jobs.smartrecruiters.com/{slug}/{j['id']}"
+        offset += 100
+        if offset >= d.get("totalFound", 0) or offset >= 2000:
+            break
+
+
+def post(url, body):
+    req = urllib.request.Request(url, data=json.dumps(body).encode(),
+                                 headers={**UA, "Content-Type": "application/json", "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def workday(slug):
+    """slug = "tenant|wdN|site", e.g. "nvidia|5|NVIDIAExternalCareerSite"."""
+    tenant, n, site = slug.split("|")
+    host = f"https://{tenant}.wd{n}.myworkdayjobs.com"
+    api = f"{host}/wday/cxs/{tenant}/{site}"
+    seen = set()
+    for query in ("intern", "graduate", "new grad"):
+        for offset in range(0, 400, 20):
+            d = post(f"{api}/jobs", {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": query})
+            posts = d.get("jobPostings", [])
+            for j in posts:
+                path = j.get("externalPath")
+                if not path or path in seen:
+                    continue
+                seen.add(path)
+                title, loc = j.get("title", ""), j.get("locationsText", "")
+                # "3 Locations" hides the real list: look it up, but only for plausible matches
+                if re.match(r"\d+ Locations", loc) and EARLY.search(title) and TECH.search(title):
+                    try:
+                        info = get(f"{api}{path}").get("jobPostingInfo", {})
+                        loc = "; ".join([info.get("location", "")] + info.get("additionalLocations", []))
+                    except Exception:
+                        pass
+                yield title, loc, f"{host}/{site}{path}"
+            if len(posts) < 20:
+                break
+
+
+ATS = {"greenhouse": greenhouse, "lever": lever, "ashby": ashby, "smartrecruiters": smartrecruiters, "workday": workday}
 
 
 def category(title, company_type):
@@ -68,9 +116,10 @@ def category(title, company_type):
         return "Product"
     if re.search(r"quant|trad(er|ing)", t) or (company_type == "quant" and re.search(r"research", t)):
         return "Quant"
-    if re.search(r"machine learning|\bml\b|\bai\b|research scien|deep learning|llm", t):
+    if re.search(r"machine learning|\bml\b|\bai\b|research scien|deep learning|llm|robotic|computer vision", t):
         return "AI/ML"
-    if re.search(r"hardware|fpga|asic|chip|embedded", t):
+    if re.search(r"hardware|fpga|asic|chip|embedded|firmware|mechanical|electrical|semiconductor|package|equipment|"
+                 r"process engineer|\bfab\b|reliability|installation", t):
         return "Hardware"
     if re.search(r"\bdata\b", t):
         return "Data"
@@ -99,7 +148,7 @@ def collect(src):
         countries = [c for c, p in COUNTRY_PATTERNS.items() if p.search(loc)]
         if not countries or not EARLY.search(title) or not TECH.search(title) or EXCLUDE.search(title):
             continue
-        locs = [l.strip() for l in re.split(r"[;|/]", loc) if l.strip()]
+        locs = [l.strip() for l in re.split(r"[;|]", loc) if l.strip()]
         out.append({
             "company": src["company"],
             "role": title,
@@ -119,13 +168,18 @@ def main():
     entries = json.loads(DATA.read_text(encoding="utf-8"))
     today = dt.date.today().isoformat()
 
-    found, ok_companies = {}, set()
+    found, ok_companies, seen_roles = {}, set(), set()
     with cf.ThreadPoolExecutor(12) as ex:
         futures = {ex.submit(collect, s): s for s in sources}
         for f in cf.as_completed(futures):
             s = futures[f]
             try:
                 for e in f.result():
+                    # same role posted several times (one per office / req) -> keep one
+                    role_key = (e["company"], e["role"].lower(), tuple(e["countries"]))
+                    if role_key in seen_roles:
+                        continue
+                    seen_roles.add(role_key)
                     found[e["url"]] = e
                 ok_companies.add(s["company"])
             except Exception as err:  # one broken board must not break the run

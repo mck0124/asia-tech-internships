@@ -328,5 +328,239 @@
     "ats": "ashby",
     "slug": "sierra",
     "type": "tech"
+  },
+  {
+    "company": "Bybit",
+    "ats": "greenhouse",
+    "slug": "bybit",
+    "type": "tech"
+  },
+  {
+    "company": "BitGo",
+    "ats": "greenhouse",
+    "slug": "bitgo",
+    "type": "tech"
+  },
+  {
+    "company": "GSR",
+    "ats": "greenhouse",
+    "slug": "gsrmarkets",
+    "type": "quant"
+  },
+  {
+    "company": "ExodusPoint",
+    "ats": "greenhouse",
+    "slug": "exoduspoint",
+    "type": "quant"
+  },
+  {
+    "company": "Schonfeld",
+    "ats": "greenhouse",
+    "slug": "schonfeld",
+    "type": "quant"
+  },
+  {
+    "company": "Xendit",
+    "ats": "greenhouse",
+    "slug": "xendit",
+    "type": "tech"
+  },
+  {
+    "company": "Payoneer",
+    "ats": "greenhouse",
+    "slug": "payoneer",
+    "type": "tech"
+  },
+  {
+    "company": "Adyen",
+    "ats": "greenhouse",
+    "slug": "adyen",
+    "type": "tech"
+  },
+  {
+    "company": "Goodnotes",
+    "ats": "greenhouse",
+    "slug": "goodnotes",
+    "type": "tech"
+  },
+  {
+    "company": "HeyGen",
+    "ats": "greenhouse",
+    "slug": "heygen",
+    "type": "tech"
+  },
+  {
+    "company": "Zscaler",
+    "ats": "greenhouse",
+    "slug": "zscaler",
+    "type": "tech"
+  },
+  {
+    "company": "Daangn (당근)",
+    "ats": "greenhouse",
+    "slug": "daangn",
+    "type": "tech"
+  },
+  {
+    "company": "FuriosaAI",
+    "ats": "greenhouse",
+    "slug": "furiosaai",
+    "type": "tech"
+  },
+  {
+    "company": "Crypto.com",
+    "ats": "lever",
+    "slug": "crypto",
+    "type": "tech"
+  },
+  {
+    "company": "LangChain",
+    "ats": "ashby",
+    "slug": "langchain",
+    "type": "tech"
+  },
+  {
+    "company": "Temporal",
+    "ats": "ashby",
+    "slug": "temporal",
+    "type": "tech"
+  },
+  {
+    "company": "Grab",
+    "ats": "smartrecruiters",
+    "slug": "Grab",
+    "type": "tech"
+  },
+  {
+    "company": "Morgan Stanley",
+    "ats": "workday",
+    "slug": "ms|5|External",
+    "type": "tech"
+  },
+  {
+    "company": "Citi",
+    "ats": "workday",
+    "slug": "citi|5|2",
+    "type": "tech"
+  },
+  {
+    "company": "BlackRock",
+    "ats": "workday",
+    "slug": "blackrock|1|BlackRock_Professional",
+    "type": "tech"
+  },
+  {
+    "company": "Mastercard",
+    "ats": "workday",
+    "slug": "mastercard|1|CorporateCareers",
+    "type": "tech"
+  },
+  {
+    "company": "NVIDIA",
+    "ats": "workday",
+    "slug": "nvidia|5|NVIDIAExternalCareerSite",
+    "type": "tech"
+  },
+  {
+    "company": "Salesforce",
+    "ats": "workday",
+    "slug": "salesforce|12|External_Career_Site",
+    "type": "tech"
+  },
+  {
+    "company": "Adobe",
+    "ats": "workday",
+    "slug": "adobe|5|external_experienced",
+    "type": "tech"
+  },
+  {
+    "company": "Intel",
+    "ats": "workday",
+    "slug": "intel|1|External",
+    "type": "tech"
+  },
+  {
+    "company": "Barclays",
+    "ats": "workday",
+    "slug": "barclays|3|External_Career_Site_Barclays",
+    "type": "tech"
+  },
+  {
+    "company": "Deutsche Bank",
+    "ats": "workday",
+    "slug": "db|3|DBWebsite",
+    "type": "tech"
+  },
+  {
+    "company": "Manulife",
+    "ats": "workday",
+    "slug": "manulife|3|MFCJH_Jobs",
+    "type": "tech"
+  },
+  {
+    "company": "AIA",
+    "ats": "workday",
+    "slug": "aia|3|External",
+    "type": "tech"
+  },
+  {
+    "company": "Micron",
+    "ats": "workday",
+    "slug": "micron|1|External",
+    "type": "tech"
+  },
+  {
+    "company": "HP",
+    "ats": "workday",
+    "slug": "hp|5|ExternalCareerSite",
+    "type": "tech"
+  },
+  {
+    "company": "PayPal",
+    "ats": "workday",
+    "slug": "paypal|1|jobs",
+    "type": "tech"
+  },
+  {
+    "company": "Broadcom",
+    "ats": "workday",
+    "slug": "broadcom|1|External_Career",
+    "type": "tech"
+  },
+  {
+    "company": "State Street",
+    "ats": "workday",
+    "slug": "statestreet|1|Global",
+    "type": "tech"
+  },
+  {
+    "company": "KLA",
+    "ats": "workday",
+    "slug": "kla|1|Search",
+    "type": "tech"
+  },
+  {
+    "company": "LSEG",
+    "ats": "workday",
+    "slug": "lseg|3|Careers",
+    "type": "tech"
+  },
+  {
+    "company": "CME Group",
+    "ats": "workday",
+    "slug": "cmegroup|1|cme_careers",
+    "type": "tech"
+  },
+  {
+    "company": "Nasdaq",
+    "ats": "workday",
+    "slug": "nasdaq|1|Global_External_Site",
+    "type": "tech"
+  },
+  {
+    "company": "Visa",
+    "ats": "workday",
+    "slug": "visa|5|Visa",
+    "type": "tech"
   }
 ]
