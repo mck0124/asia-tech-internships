@@ -8,7 +8,7 @@ Each entry is one object. `README.md` is generated from this file — never edit
 | `role` | ✅ | Role title as posted |
 | `category` | ✅ | `SWE` · `Quant` · `AI/ML` · `Data` · `Hardware` · `Product` |
 | `locations` | ✅ | List, e.g. `["Hong Kong"]`, `["Singapore", "Remote"]` |
-| `country` | ✅ | `HK` · `SG` · `KR` (first location's country, used for grouping) |
+| `countries` | ✅ | List of `HK` · `SG` · `KR` — the posting is listed under each |
 | `season` | ✅ | e.g. `Summer 2027`, `Winter 2026`, `Off-cycle` |
 | `url` | ✅ | Direct link to the posting (not a generic careers page if avoidable) |
 | `deadline` | | `YYYY-MM-DD`, or omit if rolling |
@@ -17,3 +17,4 @@ Each entry is one object. `README.md` is generated from this file — never edit
 | `oa` | | Assessment type if known, e.g. `HackerRank`, `CodeSignal`, `Game`, `Take-home` |
 | `status` | ✅ | `open` · `closed` |
 | `added` | ✅ | `YYYY-MM-DD` |
+| `source` | | `auto` = pulled by `scripts/fetch.py` (auto-closed when removed from the company board). Omit for manual entries. |

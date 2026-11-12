@@ -10,7 +10,7 @@ DATA = ROOT / "data" / "internships.json"
 README = ROOT / "README.md"
 START, END = "<!-- TABLE:START -->", "<!-- TABLE:END -->"
 
-REQUIRED = ["company", "role", "category", "locations", "country", "season", "url", "status", "added"]
+REQUIRED = ["company", "role", "category", "locations", "countries", "season", "url", "status", "added"]
 CATEGORIES = {"SWE", "Quant", "AI/ML", "Data", "Hardware", "Product"}
 COUNTRIES = {"HK": "🇭🇰 Hong Kong", "SG": "🇸🇬 Singapore", "KR": "🇰🇷 South Korea"}
 STATUSES = {"open", "closed"}
@@ -27,8 +27,9 @@ def validate(entries):
                 errors.append(f"{where}: missing '{f}'")
         if e.get("category") and e["category"] not in CATEGORIES:
             errors.append(f"{where}: bad category '{e['category']}'")
-        if e.get("country") and e["country"] not in COUNTRIES:
-            errors.append(f"{where}: bad country '{e['country']}'")
+        bad = [c for c in e.get("countries", []) if c not in COUNTRIES]
+        if bad or not isinstance(e.get("countries", []), list):
+            errors.append(f"{where}: bad countries {e.get('countries')}")
         if e.get("status") and e["status"] not in STATUSES:
             errors.append(f"{where}: bad status '{e['status']}'")
         if e.get("visa") and e["visa"] not in VISA:
@@ -53,7 +54,7 @@ def cell(s):
 
 
 def row(e, today):
-    deadline = e.get("deadline") or "Rolling"
+    deadline = e.get("deadline") or "—"
     if e.get("deadline") and e["status"] == "open":
         days = (dt.date.fromisoformat(e["deadline"]) - today).days
         if 0 <= days <= 7:
@@ -85,8 +86,8 @@ def render(entries, today):
     open_count = sum(e["status"] == "open" for e in entries)
     out.append(f"**{open_count} open** · {len(entries)} total · last updated {today.isoformat()}\n")
     for code, name in COUNTRIES.items():
-        rows = [e for e in entries if e["country"] == code and e["status"] == "open"]
-        out.append(f"### {name}\n")
+        rows = [e for e in entries if code in e["countries"] and e["status"] == "open"]
+        out.append(f"### {name} ({len(rows)})\n")
         if rows:
             out.append(HEADER)
             out.extend(row(e, today) for e in sorted(rows, key=sort_key))

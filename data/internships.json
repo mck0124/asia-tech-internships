@@ -1,1 +1,1074 @@
-[]
+[
+  {
+    "company": "Flow Traders",
+    "role": "PhD Graduate Quantitative Researcher",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "New Grad",
+    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8213037",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Flow Traders",
+    "role": "Trading Intern",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8102618",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Virtu Financial",
+    "role": "2027 Internship – Core Operations Engineer",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.greenhouse.io/virtu/jobs/6329460002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Virtu Financial",
+    "role": "2027 Internship - Quantitative Researcher (PhD)",
+    "category": "Quant",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.greenhouse.io/virtu/jobs/7617953002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Virtu Financial",
+    "role": "2027 Internship - Quantitative Trading",
+    "category": "Quant",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.greenhouse.io/virtu/jobs/5208637002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Virtu Financial",
+    "role": "2027 Internship – Software Engineer",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.greenhouse.io/virtu/jobs/5513756002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Tower Research Capital",
+    "role": "Quantitative Developer Intern",
+    "category": "Quant",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.tower-research.com/open-positions/?gh_jid=8138524",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Tower Research Capital",
+    "role": "Quantitative Researcher Intern, Bachelor's or Master's",
+    "category": "Quant",
+    "locations": [
+      "Singapore, Hong Kong, Shanghai, Sydney"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.tower-research.com/open-positions/?gh_jid=8168750",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Tower Research Capital",
+    "role": "Quantitative Researcher Intern, PhD or Postdoc",
+    "category": "Quant",
+    "locations": [
+      "Singapore, Hong Kong, Shanghai, Sydney"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.tower-research.com/open-positions/?gh_jid=8168634",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Tower Research Capital",
+    "role": "Software Engineer, C++ - 6 Month Internship Opportunity",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.tower-research.com/open-positions/?gh_jid=8299894",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Tower Research Capital",
+    "role": "Software Engineer, C++ - Graduate Opportunity",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong, Singapore"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "New Grad",
+    "url": "https://www.tower-research.com/open-positions/?gh_jid=8245433",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus AI/ML Researcher (Intern)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong",
+      "Shanghai",
+      "Singapore"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027938",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus C++ Software Engineer (Intern)",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027946",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus C++ Software Engineer (Intern)",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong",
+      "Shanghai"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027860",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Python Software Engineer (Intern)",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong",
+      "Shanghai"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027923",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Python Software Engineer (Intern)",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027955",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Quantitative Researcher (Intern)",
+    "category": "Quant",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027939",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Quantitative Researcher (Intern)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong",
+      "Shanghai"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027900",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Quantitative Researcher (Off-Cycle - Winter/Spring 2027 Intern)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong",
+      "Shanghai"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "Winter 2027",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027898",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Quantitative Trader (Intern)",
+    "category": "Quant",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027941",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Quantitative Trader (Intern)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong",
+      "Shanghai"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027922",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Jump Trading",
+    "role": "Campus Systems Engineer (Intern)",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.jumptrading.com/hr/job?gh_jid=8027952",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "DV Trading",
+    "role": "2027 Quantitative Researcher Graduate (DV QES)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "New Grad 2027",
+    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4736954005",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "DV Trading",
+    "role": "2027 Quantitative Research Intern (DV QES)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4733877005",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "DV Trading",
+    "role": "2027 Quantitative Trader Graduate (DV QES)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "New Grad 2027",
+    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4691298005",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "DV Trading",
+    "role": "2027 Software Developer Intern (DV QES)",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4733880005",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "DV Trading",
+    "role": "Quantitative Trading Intern (DV QES)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/dvtrading/jobs/4691295005",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Squarepoint Capital",
+    "role": "Graduate Quant Developer",
+    "category": "Quant",
+    "locations": [
+      "London, Montreal, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "New Grad",
+    "url": "https://www.squarepoint-capital.com/open-opportunities?id=7918610&gh_jid=7918610",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Squarepoint Capital",
+    "role": "Graduate Software Developer",
+    "category": "SWE",
+    "locations": [
+      "London, Montreal, Singapore, Warsaw"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "New Grad",
+    "url": "https://www.squarepoint-capital.com/open-opportunities?id=6040910&gh_jid=6040910",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Squarepoint Capital",
+    "role": "Graduate Trading Applications Specialist",
+    "category": "Quant",
+    "locations": [
+      "London, Montreal, New York, Houston, Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "New Grad",
+    "url": "https://www.squarepoint-capital.com/open-opportunities?id=6100081&gh_jid=6100081",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Squarepoint Capital",
+    "role": "Intern Quant Researcher",
+    "category": "Quant",
+    "locations": [
+      "London, Paris, New York, Singapore, Hong Kong"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.squarepoint-capital.com/open-opportunities?id=243853&gh_jid=243853",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Squarepoint Capital",
+    "role": "Intern Software Developer - Singapore - 2027",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "2027",
+    "url": "https://www.squarepoint-capital.com/open-opportunities?id=6201998&gh_jid=6201998",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Squarepoint Capital",
+    "role": "Trading Infrastructure Specialist – Graduate Program",
+    "category": "Quant",
+    "locations": [
+      "London, Montreal, Hong Kong, New York, Singapore"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "New Grad",
+    "url": "https://www.squarepoint-capital.com/open-opportunities?id=7757021&gh_jid=7757021",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "DRW",
+    "role": "Quantitative Research Intern",
+    "category": "Quant",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/drweng/jobs/8014915",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Point72",
+    "role": "2027 MI Data Research & AI Intern - APAC",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong, Singapore, Japan"
+    ],
+    "countries": [
+      "HK",
+      "SG"
+    ],
+    "season": "2027",
+    "url": "https://boards.greenhouse.io/point72/jobs/8899753002?gh_jid=8899753002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Point72",
+    "role": "2027 Trader Summer Intern (12-week program)",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong Japan"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "2027",
+    "url": "https://boards.greenhouse.io/point72/jobs/8932943002?gh_jid=8932943002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Point72",
+    "role": "Long/Short Equity Support Research Intern, Hong Kong",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://boards.greenhouse.io/point72/jobs/8899750002?gh_jid=8899750002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Point72",
+    "role": "Quantitative Researcher - Intern",
+    "category": "Quant",
+    "locations": [
+      "London, Paris, Hong Kong, Tokyo"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "IMC Trading",
+    "role": "Quantitative Research Intern 2027",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong, Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941208101",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "IMC Trading",
+    "role": "Quantitative Trader Intern 2027",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong, Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941205101",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "IMC Trading",
+    "role": "Software Engineer Intern 2027",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong, Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "2027",
+    "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4941206101",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Stripe",
+    "role": "Financial Data Analyst Intern, Technical Operations",
+    "category": "Data",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://stripe.com/jobs/search?gh_jid=8186442",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Stripe",
+    "role": "Integration Reliability Engineer Intern, Technical Operations",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://stripe.com/jobs/search?gh_jid=8186367",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Stripe",
+    "role": "Software Engineer, Intern",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://stripe.com/jobs/search?gh_jid=8130883",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Stripe",
+    "role": "Software Engineer, New Grad",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "New Grad",
+    "url": "https://stripe.com/jobs/search?gh_jid=8160776",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Sendbird",
+    "role": "AI Agent Engineer, Intern",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul, South Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://sendbird.com/careers?gh_jid=8276676002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Moloco",
+    "role": "Machine Learning Engineer Intern (3-month Internship)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul, Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/moloco/jobs/8044892003",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Moloco",
+    "role": "Software Engineer Intern (3 months)",
+    "category": "SWE",
+    "locations": [
+      "Seoul, Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/moloco/jobs/8007407003",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Frontier Div.] Research Assistant (일본어 능통자, 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul",
+      "Seoul, South Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8908312002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] AI Companion Team Internship (2년 이상 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8125444002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] AI Operation Manager (경력무관 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8835156002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] Foundation Model Evaluation Engineer - 독자 AI 파운데이션 모델 (2년 이상 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8632414002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] Research Engineer - Vision Language Action Game Agent (2년 이상 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8417764002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] Research Scientist Intern - 독자 AI 파운데이션 모델 (2년 이상 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8401231002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] Research Scientist - Specialized Model (2년 이상 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul",
+      "Seoul, South Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8836426002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Coinbase",
+    "role": "Software Engineer Intern",
+    "category": "SWE",
+    "locations": [
+      "Hybrid - Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://www.coinbase.com/careers/positions/8175873?gh_jid=8175873",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "AppLovin",
+    "role": "Machine Learning Engineering Intern (2027 Summer Internship)",
+    "category": "AI/ML",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "Summer 2027",
+    "url": "https://boards.greenhouse.io/applovin/jobs/4713038006?gh_jid=4713038006",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "AppLovin",
+    "role": "Product Management Intern (2027 Summer Internship)",
+    "category": "Product",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "Summer 2027",
+    "url": "https://boards.greenhouse.io/applovin/jobs/4713039006?gh_jid=4713039006",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Airwallex",
+    "role": "Software Engineer Intern (Jan to Jun 2027)",
+    "category": "SWE",
+    "locations": [
+      "SG - Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "Jan to Jun 2027",
+    "url": "https://jobs.ashbyhq.com/airwallex/39651124-122a-4033-91a2-af2687b83441",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Airwallex",
+    "role": "Software Engineer Intern (Summer 2027)",
+    "category": "SWE",
+    "locations": [
+      "SG - Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "Summer 2027",
+    "url": "https://jobs.ashbyhq.com/airwallex/6cdb0f39-234a-4234-b1f1-cb48a1fa2795",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Sierra",
+    "role": "Software Engineer, Agent (New Grad 2027)",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "New Grad 2027",
+    "url": "https://jobs.ashbyhq.com/Sierra/79953d72-60d4-43e0-8c8c-6eccda422dce",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Sierra",
+    "role": "Software Engineer Intern, Agent (Summer 2027)",
+    "category": "SWE",
+    "locations": [
+      "Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "Summer 2027",
+    "url": "https://jobs.ashbyhq.com/Sierra/eb8e8b58-394b-43f0-b9bd-4f1407d9aa17",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Palantir",
+    "role": "Forward Deployed Software Engineer, Internship - Commercial",
+    "category": "SWE",
+    "locations": [
+      "Seoul, South Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://jobs.lever.co/palantir/2ad0ab10-34c3-410d-883b-8052864a95cd",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Palantir",
+    "role": "Forward Deployed Software Engineer, New Grad - Commercial",
+    "category": "SWE",
+    "locations": [
+      "Seoul, South Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "New Grad",
+    "url": "https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Palantir",
+    "role": "Software Engineer, Internship",
+    "category": "SWE",
+    "locations": [
+      "Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://jobs.lever.co/palantir/3531977a-9b2f-40a0-a486-4eeb38e75fc1",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  },
+  {
+    "company": "Palantir",
+    "role": "Software Engineer, New Grad",
+    "category": "SWE",
+    "locations": [
+      "Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "New Grad",
+    "url": "https://jobs.lever.co/palantir/2458ba08-de79-4e8f-b553-060f9568727e",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-12"
+  }
+]
