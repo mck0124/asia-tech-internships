@@ -1,0 +1,45 @@
+name: ➕ New posting
+description: Add an internship / new-grad posting in Hong Kong, Singapore or South Korea
+title: "[New] <Company> — <Role>"
+labels: ["new-posting"]
+body:
+  - type: input
+    id: company
+    attributes: { label: Company }
+    validations: { required: true }
+  - type: input
+    id: role
+    attributes: { label: Role title (as posted) }
+    validations: { required: true }
+  - type: dropdown
+    id: category
+    attributes:
+      label: Track
+      options: [SWE, Quant, AI/ML, Data, Hardware, Product]
+    validations: { required: true }
+  - type: input
+    id: locations
+    attributes: { label: "Location(s)", placeholder: "Hong Kong" }
+    validations: { required: true }
+  - type: input
+    id: season
+    attributes: { label: Season, placeholder: "Summer 2027" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Direct posting URL }
+    validations: { required: true }
+  - type: input
+    id: deadline
+    attributes: { label: "Deadline (YYYY-MM-DD, leave empty if rolling)" }
+  - type: dropdown
+    id: visa
+    attributes:
+      label: Open to international students / visa sponsorship?
+      options: ["Unknown", "Yes", "No — citizens/PR only"]
+  - type: input
+    id: languages
+    attributes: { label: "Extra required language (e.g. Korean, Cantonese)" }
+  - type: input
+    id: oa
+    attributes: { label: "Online assessment type if known (HackerRank, CodeSignal, ...)" }

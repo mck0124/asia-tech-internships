@@ -1,0 +1,23 @@
+name: Check posting links
+on:
+  schedule:
+    - cron: "0 1 * * 1" # weekly, Monday
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - id: check
+        run: python scripts/check_links.py > dead.md
+        continue-on-error: true
+      - name: Open issue for dead links
+        if: steps.check.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Dead posting links ($(date +%F))" --body-file dead.md --label "dead-link" || gh issue create --title "Dead posting links ($(date +%F))" --body-file dead.md
