@@ -54,28 +54,36 @@ def cell(s):
 
 
 def row(e, today):
-    deadline = e.get("deadline") or "—"
-    if e.get("deadline") and e["status"] == "open":
+    """One table row. Optional info (deadline / visa / language / assessment) is shown as badges next to the
+    role only when we actually have it, so the table has no columns full of blanks."""
+    badges = []
+    if e.get("deadline"):
         days = (dt.date.fromisoformat(e["deadline"]) - today).days
-        if 0 <= days <= 7:
-            deadline += " 🔥"
+        flag = "🔥" if e["status"] == "open" and 0 <= days <= 7 else "⏰"
+        badges.append(f"{flag} {e['deadline']}")
+    if e.get("visa") == "yes":
+        badges.append("🛂 visa OK")
+    elif e.get("visa") == "no":
+        badges.append("🛂 citizens/PR only")
+    if e.get("languages"):
+        badges.append("🗣 " + ", ".join(e["languages"]))
+    if e.get("oa"):
+        badges.append("🧪 " + e["oa"])
     new = " 🆕" if (today - dt.date.fromisoformat(e["added"])).days <= 7 else ""
+    role = cell(e["role"]) + ("<br>" + " · ".join(badges) if badges else "")
     link = f"[Apply]({e['url']})" if e["status"] == "open" else "🔒 Closed"
     return "| " + " | ".join([
         f"**{cell(e['company'])}**{new}",
-        cell(e["role"]),
+        role,
         e["category"],
         cell(", ".join(e["locations"])),
         cell(e["season"]),
-        deadline,
-        VISA.get(e.get("visa"), "❔"),
-        cell(", ".join(e.get("languages", [])) or "—"),
         link,
     ]) + " |"
 
 
-HEADER = ("| Company | Role | Track | Location | Season | Deadline | Visa | Extra language | Link |\n"
-          "|---|---|---|---|---|---|---|---|---|")
+HEADER = ("| Company | Role | Track | Location | Season | Link |\n"
+          "|---|---|---|---|---|---|")
 
 
 def render(entries, today):
