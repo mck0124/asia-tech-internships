@@ -32,7 +32,10 @@ TECH = re.compile(r"software|engineer|developer|quant|research|trad(er|ing)|data
                   r"개발|엔지니어|연구|데이터|보안|인프라|서버|백엔드|프론트|모델|\bAI\b", re.I)
 EXCLUDE = re.compile(r"recruit|audit|accounting|\bsales\b|marketing|legal|counsel|\btax\b|compliance|human resources|"
                      r"\bpeople\b|talent|designer|\bvip\b|customer|business development|economist|"
-                     r"상담|영업|마케팅|디자인|비서|채용|인사|총무|회계|법무|어시스턴트", re.I)
+                     r"상담|영업|마케팅|디자인|비서|채용|인사|총무|회계|법무|어시스턴트|"
+                     r"logistic|물류|supply chain|procurement|sourcing|commodity|mechanical|installation|field engineer|"
+                     r"project engineer|security specialist|partner management|commissioning|program analyst|"
+                     r"support research|operation manager|financial data analyst|npi\b", re.I)
 SEASON = re.compile(r"(summer|winter|spring|fall|autumn|off[\s-]?cycle)[^\d]{0,12}(20\d\d)|(20\d\d)\s*(summer|winter|spring|fall|autumn)"
                     r"|\(?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s*(to|-|–)\s*[a-z]+\s*(20\d\d)", re.I)
 
