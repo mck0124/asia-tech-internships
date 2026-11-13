@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -972,7 +972,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1997,6 +1997,39 @@
     ],
     "season": "—",
     "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---NVIDIA-Research_JR2028498",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-13"
+  },
+  {
+    "company": "Bybit",
+    "role": "[Intern] Test Development Engineer Intern",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong SAR"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-13"
+  },
+  {
+    "company": "Bybit",
+    "role": "Mobile Development Engineer Intern",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong SAR",
+      "Kuala Lumpur, Malaysia"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101",
     "status": "open",
     "source": "auto",
     "added": "2026-11-13"
