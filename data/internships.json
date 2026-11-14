@@ -1852,7 +1852,7 @@
     ],
     "season": "—",
     "url": "https://recruit.navercorp.com/rcrt/view.do?annoId=30005652",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "deadline": "2026-11-13",
     "added": "2026-11-13"
@@ -2013,7 +2013,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2033,5 +2033,38 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-13"
+  },
+  {
+    "company": "Bybit",
+    "role": "[Intern] Test Development Engineer Intern",
+    "category": "SWE",
+    "locations": [
+      "Hong Kong SAR",
+      "Kuala Lumpur, Malaysia"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-14"
+  },
+  {
+    "company": "ExodusPoint",
+    "role": "Quantitative Internship – Hong Kong",
+    "category": "Quant",
+    "locations": [
+      "Hong Kong"
+    ],
+    "countries": [
+      "HK"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-14"
   }
 ]

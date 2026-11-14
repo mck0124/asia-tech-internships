@@ -9,22 +9,23 @@ Updated **daily** — postings are pulled automatically from company job boards,
 **Legend:** 🆕 added in the last 7 days · ⏰ deadline (🔥 = within 7 days) · 🛂 visa info · 🗣 extra language required · 🧪 assessment type — badges appear only when the info is known. Season `—` = not stated in the posting.
 
 <!-- TABLE:START -->
-**124 open** · 126 total · last updated 2026-11-13
+**124 open** · 128 total · last updated 2026-11-14
 
-### 🇭🇰 Hong Kong (51)
+### 🇭🇰 Hong Kong (52)
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
 | **Barclays** 🆕 | Electronic Trading Associate Summer Internship Programme 2027 Hong Kong | Quant | Hong Kong, Cheung Kong Center | 2027 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Hong-Kong-Cheung-Kong-Center/Electronic-Trading-Associate-Summer-Internship-Programme-2027-Hong-Kong_JR-0000117566) |
 | **Barclays** 🆕 | Quantitative Analytics Associate Off Cycle Internship 2027 Hong Kong | Quant | Hong Kong, Cheung Kong Center | Off Cycle 2027 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Hong-Kong-Cheung-Kong-Center/Quantitative-Analytics-Associate-Off-Cycle-Internship-2027-Hong-Kong_JR-0000117565) |
 | **Bybit** 🆕 | [Intern] Big Data Development Engineer Intern | Data | Hong Kong SAR | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/4971692101) |
-| **Bybit** 🆕 | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101) |
 | **Bybit** 🆕 | Mobile Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101) |
+| **Bybit** 🆕 | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101) |
 | **DV Trading** 🆕 | 2027 Quantitative Researcher Graduate (DV QES) | Quant | Hong Kong | New Grad 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4736954005) |
 | **DV Trading** 🆕 | 2027 Quantitative Research Intern (DV QES) | Quant | Hong Kong | 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4733877005) |
 | **DV Trading** 🆕 | 2027 Quantitative Trader Graduate (DV QES) | Quant | Hong Kong | New Grad 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4691298005) |
 | **DV Trading** 🆕 | 2027 Software Developer Intern (DV QES) | SWE | Hong Kong | 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4733880005) |
 | **DV Trading** 🆕 | Quantitative Trading Intern (DV QES) | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4691295005) |
+| **ExodusPoint** 🆕 | Quantitative Internship – Hong Kong | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002) |
 | **Flow Traders** 🆕 | PhD Graduate Quantitative Researcher | Quant | Hong Kong | New Grad | [Apply](https://job-boards.greenhouse.io/flowtraders/jobs/8213037) |
 | **Flow Traders** 🆕 | Trading Intern | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/flowtraders/jobs/8102618) |
 | **IMC Trading** 🆕 | Quantitative Research Intern 2027 | Quant | Hong Kong, Hong Kong | 2027 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) |
@@ -132,11 +133,10 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Virtu Financial** 🆕 | 2027 Internship - Quantitative Trading | Quant | Singapore | 2027 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/5208637002) |
 | **Virtu Financial** 🆕 | 2027 Internship – Software Engineer | SWE | Singapore | 2027 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/5513756002) |
 
-### 🇰🇷 South Korea (20)
+### 🇰🇷 South Korea (19)
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
-| **NAVER** 🆕 | [NAVER] 음성번역 품질 평가/멀티모달 번역 연구 (인턴)<br>🔥 2026-11-13 | AI/ML | Seongnam (Pangyo), Korea | — | [Apply](https://recruit.navercorp.com/rcrt/view.do?annoId=30005652) |
 | **Daangn (당근)** 🆕 | Software Engineer, Android (인턴) | SWE | SEOUL | — | [Apply](https://about.daangn.com?gh_jid=7980543003) |
 | **FuriosaAI** 🆕 | Algorithm - AI Research Engineer Intern | AI/ML | Seoul, South Korea | — | [Apply](https://furiosa.ai/careers?gh_jid=4005768201) |
 | **FuriosaAI** 🆕 | [신입/경력] Hardware Engineer (석사/박사) | Hardware | Seoul, South Korea | New Grad | [Apply](https://furiosa.ai/careers?gh_jid=4007356201) |
@@ -157,12 +157,14 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Sendbird** 🆕 | AI Agent Engineer, Intern | AI/ML | Seoul, South Korea | — | [Apply](https://sendbird.com/careers?gh_jid=8276676002) |
 | **Toss (토스)** 🆕 | 플랫폼 엔지니어 (인턴십) (Platform Engineer) | SWE | Seoul | — | [Apply](https://toss.im/career/job-detail?gh_jid=8096691003) |
 
-<details><summary>🔒 Closed postings (2)</summary>
+<details><summary>🔒 Closed postings (4)</summary>
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
+| **NAVER** 🆕 | [NAVER] 음성번역 품질 평가/멀티모달 번역 연구 (인턴)<br>⏰ 2026-11-13 | AI/ML | Seongnam (Pangyo), Korea | — | 🔒 Closed |
 | **Bybit** 🆕 | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | 🔒 Closed |
 | **Bybit** 🆕 | Mobile Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
+| **Bybit** 🆕 | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | 🔒 Closed |
 
 </details>
 
