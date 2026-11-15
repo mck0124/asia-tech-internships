@@ -9,7 +9,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 **Legend:** 🆕 added in the last 7 days · ⏰ deadline (🔥 = within 7 days) · 🛂 visa info · 🗣 extra language required · 🧪 assessment type — badges appear only when the info is known. Season `—` = not stated in the posting.
 
 <!-- TABLE:START -->
-**124 open** · 128 total · last updated 2026-11-14
+**124 open** · 128 total · last updated 2026-11-15
 
 ### 🇭🇰 Hong Kong (52)
 
