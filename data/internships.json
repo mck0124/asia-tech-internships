@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -972,7 +972,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1244,7 +1244,7 @@
     ],
     "season": "New Grad",
     "url": "https://furiosa.ai/careers?gh_jid=4007356201",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1436,7 +1436,7 @@
     ],
     "season": "—",
     "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Package-Development-Engineering_JR115868",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1869,7 +1869,7 @@
     ],
     "season": "—",
     "url": "https://toss.im/career/job-detail?gh_jid=8096691003",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2030,7 +2030,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2047,7 +2047,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2066,5 +2066,85 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-14"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - HIG HBM Product System Engineering, Media Health Reliability",
+    "category": "Hardware",
+    "locations": [
+      "Fab 10A, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---HIG-HBM-Product-System-Engineering--Media-Health-Reliability_JR114360",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-16"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - HIG HBM Product & System Engineering, Media Health Reliability",
+    "category": "Hardware",
+    "locations": [
+      "Fab 10A, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---HIG-HBM-Product---System-Engineering--Media-Health-Reliability_JR114368",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-16"
+  },
+  {
+    "company": "PayPal",
+    "role": "Cybersecurity Risk Intern",
+    "category": "SWE",
+    "locations": [
+      "Central Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Cybersecurity-Risk-Intern_R0138933",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-16"
+  },
+  {
+    "company": "PayPal",
+    "role": "Software Engineer Intern - Backend",
+    "category": "SWE",
+    "locations": [
+      "Central Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Software-Engineer-Intern---Backend_R0138931",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-16"
+  },
+  {
+    "company": "PayPal",
+    "role": "Full Stack Software Engineer Intern",
+    "category": "SWE",
+    "locations": [
+      "Central Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Full-Stack-Software-Engineer-Intern_R0138930",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-16"
   }
 ]
