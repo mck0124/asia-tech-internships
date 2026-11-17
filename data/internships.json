@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2013,7 +2013,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2111,7 +2111,7 @@
     ],
     "season": "—",
     "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Cybersecurity-Risk-Intern_R0138933",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-16"
   },
@@ -2127,7 +2127,7 @@
     ],
     "season": "—",
     "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Software-Engineer-Intern---Backend_R0138931",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-16"
   },
@@ -2143,8 +2143,72 @@
     ],
     "season": "—",
     "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Full-Stack-Software-Engineer-Intern_R0138930",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-16"
+  },
+  {
+    "company": "Daangn (당근)",
+    "role": "Software Engineer, Backend(인턴) - 숏폼",
+    "category": "SWE",
+    "locations": [
+      "SEOUL"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://about.daangn.com?gh_jid=8206277003",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-17"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - MSB Test Engineering",
+    "category": "SWE",
+    "locations": [
+      "MSB, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---MSB-Test-Engineering_JR111366",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-17"
+  },
+  {
+    "company": "AIA",
+    "role": "AI Engineering Intern",
+    "category": "AI/ML",
+    "locations": [
+      "Singapore, SG-AIA Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://aia.wd3.myworkdayjobs.com/External/job/Singapore-SG-AIA-Singapore/AI-Engineering-Intern_JR-71960",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-17"
+  },
+  {
+    "company": "AIA",
+    "role": "Advanced Operations Solutions (Systems), Intern",
+    "category": "SWE",
+    "locations": [
+      "Singapore, SG-AIA Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://aia.wd3.myworkdayjobs.com/External/job/Singapore-SG-AIA-Singapore/Advanced-Operations-Solutions--Systems---Intern_JR-72028",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-17"
   }
 ]
