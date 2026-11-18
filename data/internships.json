@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1148,7 +1148,7 @@
     ],
     "season": "Winter 2027",
     "url": "https://job-boards.greenhouse.io/heygen/jobs/4540716007",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2013,7 +2013,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2063,7 +2063,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2111,7 +2111,7 @@
     ],
     "season": "—",
     "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Cybersecurity-Risk-Intern_R0138933",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-16"
   },
@@ -2127,7 +2127,7 @@
     ],
     "season": "—",
     "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Software-Engineer-Intern---Backend_R0138931",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-16"
   },
@@ -2143,7 +2143,7 @@
     ],
     "season": "—",
     "url": "https://paypal.wd1.myworkdayjobs.com/jobs/job/Central-Singapore-Singapore/Full-Stack-Software-Engineer-Intern_R0138930",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-16"
   },
@@ -2210,5 +2210,21 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-17"
+  },
+  {
+    "company": "NVIDIA",
+    "role": "PhD Researcher Intern, World Foundation Models",
+    "category": "SWE",
+    "locations": [
+      "Korea, Seoul"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Korea-Seoul/PhD-Researcher-Intern--World-Foundation-Models_JR2028487",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-18"
   }
 ]
