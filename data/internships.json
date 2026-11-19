@@ -972,7 +972,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1965,7 +1965,7 @@
     ],
     "season": "—",
     "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Singapore-South-West-Singapore/College-Intern---Agentic-AI-Engineering_UNI5129-1",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2030,7 +2030,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2063,7 +2063,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2191,7 +2191,7 @@
     ],
     "season": "—",
     "url": "https://aia.wd3.myworkdayjobs.com/External/job/Singapore-SG-AIA-Singapore/AI-Engineering-Intern_JR-71960",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-17"
   },
@@ -2207,7 +2207,7 @@
     ],
     "season": "—",
     "url": "https://aia.wd3.myworkdayjobs.com/External/job/Singapore-SG-AIA-Singapore/Advanced-Operations-Solutions--Systems---Intern_JR-72028",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-17"
   },
@@ -2226,5 +2226,37 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-18"
+  },
+  {
+    "company": "Salesforce",
+    "role": "Summer 2027 Intern - AI Research",
+    "category": "AI/ML",
+    "locations": [
+      "Singapore - Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "Summer 2027",
+    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Singapore---Singapore/XMLNAME-2025-PhD-Intern---AI-Research--Singapore_JR267880-2",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-19"
+  },
+  {
+    "company": "AIA",
+    "role": "Security Awareness Intern",
+    "category": "SWE",
+    "locations": [
+      "Singapore, SG-AIA Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://aia.wd3.myworkdayjobs.com/External/job/Singapore-SG-AIA-Singapore/Security-Awareness-Intern_JR-72048",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-19"
   }
 ]
