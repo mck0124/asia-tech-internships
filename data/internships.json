@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2047,7 +2047,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2255,8 +2255,104 @@
     ],
     "season": "—",
     "url": "https://aia.wd3.myworkdayjobs.com/External/job/Singapore-SG-AIA-Singapore/Security-Awareness-Intern_JR-72048",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-19"
+  },
+  {
+    "company": "Daangn (당근)",
+    "role": "Software Engineer, Backend (인턴) - 서비스 운영 (운영개발)",
+    "category": "SWE",
+    "locations": [
+      "SEOUL"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://about.daangn.com?gh_jid=8204751003",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-20"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - SSD Validation Engineer",
+    "category": "SWE",
+    "locations": [
+      "MSB, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---SSD-Validation-Engineer_JR114972",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-20"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern, Facilities AI Engineering",
+    "category": "AI/ML",
+    "locations": [
+      "Fab 10N/X, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern--Facilities-AI-Engineering_JR111170",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-20"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - Industrial Engineer",
+    "category": "SWE",
+    "locations": [
+      "Fab 10A, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---Industrial-Engineer_JR111008",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-20"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - Firmware and Product Test Engineer",
+    "category": "Hardware",
+    "locations": [
+      "MSB, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Firmware-and-Product-Test-Engineer_JR117288",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-20"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern- Solutions Engineer",
+    "category": "SWE",
+    "locations": [
+      "Fab 10A, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern--Solutions-Engineer_JR109820",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-20"
   }
 ]
