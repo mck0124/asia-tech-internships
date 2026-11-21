@@ -1004,7 +1004,7 @@
     ],
     "season": "2027",
     "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8350719",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1068,7 +1068,7 @@
     ],
     "season": "2027",
     "url": "https://job-boards.greenhouse.io/schonfeld/jobs/8238448",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2013,7 +2013,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2047,7 +2047,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2335,7 +2335,7 @@
     ],
     "season": "—",
     "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Firmware-and-Product-Test-Engineer_JR117288",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-20"
   },
@@ -2354,5 +2354,54 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-20"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - MSH Process & Equipment Engineering",
+    "category": "Hardware",
+    "locations": [
+      "Fab 10A, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---MSH-PEE_JR116666",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-21"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - Firmware and Product Test Engineer",
+    "category": "Hardware",
+    "locations": [
+      "MSB, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Firmware-and-Product-Test-Engineer_JR117289",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-21"
+  },
+  {
+    "company": "NAVER",
+    "role": "[네이버웹툰] AI Engineer (체험형 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seongnam (Pangyo), Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://recruit.navercorp.com/rcrt/view.do?annoId=30005739",
+    "status": "open",
+    "source": "auto",
+    "deadline": "2026-12-13",
+    "added": "2026-11-21"
   }
 ]
