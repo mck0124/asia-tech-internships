@@ -9,7 +9,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 **Legend:** 🆕 added in the last 7 days · ⏰ deadline (🔥 = within 7 days) · 🛂 visa info · 🗣 extra language required · 🧪 assessment type — badges appear only when the info is known. Season `—` = not stated in the posting.
 
 <!-- TABLE:START -->
-**134 open** · 149 total · last updated 2026-11-21
+**134 open** · 149 total · last updated 2026-11-22
 
 ### 🇭🇰 Hong Kong (50)
 
@@ -25,7 +25,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **DV Trading** | 2027 Quantitative Trader Graduate (DV QES) | Quant | Hong Kong | New Grad 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4691298005) |
 | **DV Trading** | 2027 Software Developer Intern (DV QES) | SWE | Hong Kong | 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4733880005) |
 | **DV Trading** | Quantitative Trading Intern (DV QES) | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4691295005) |
-| **ExodusPoint** 🆕 | Quantitative Internship – Hong Kong | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002) |
+| **ExodusPoint** | Quantitative Internship – Hong Kong | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/exoduspoint/jobs/8943351002) |
 | **Flow Traders** | PhD Graduate Quantitative Researcher | Quant | Hong Kong | New Grad | [Apply](https://job-boards.greenhouse.io/flowtraders/jobs/8213037) |
 | **Flow Traders** | Trading Intern | Quant | Hong Kong | — | [Apply](https://job-boards.greenhouse.io/flowtraders/jobs/8102618) |
 | **IMC Trading** | Quantitative Research Intern 2027 | Quant | Hong Kong, Hong Kong | 2027 | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4941208101) |
@@ -177,7 +177,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **AIA** 🆕 | Security Awareness Intern | SWE | Singapore, SG-AIA Singapore | — | 🔒 Closed |
 | **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | 🔒 Closed |
 | **Bybit** | Mobile Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
-| **Bybit** 🆕 | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
+| **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
 | **FuriosaAI** | [신입/경력] Hardware Engineer (석사/박사) | Hardware | Seoul, South Korea | New Grad | 🔒 Closed |
 | **HeyGen** | Software Engineer Intern (Winter 2027) | SWE | Toronto, Los Angeles, San Francisco, Toronto, Singapore | Winter 2027 | 🔒 Closed |
 | **HP** | College Intern - Agentic AI Engineering | AI/ML | Singapore, South West, Singapore | — | 🔒 Closed |
