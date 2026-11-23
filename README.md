@@ -9,7 +9,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 **Legend:** 🆕 added in the last 7 days · ⏰ deadline (🔥 = within 7 days) · 🛂 visa info · 🗣 extra language required · 🧪 assessment type — badges appear only when the info is known. Season `—` = not stated in the posting.
 
 <!-- TABLE:START -->
-**134 open** · 149 total · last updated 2026-11-22
+**132 open** · 149 total · last updated 2026-11-23
 
 ### 🇭🇰 Hong Kong (50)
 
@@ -66,7 +66,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Tower Research Capital** | Quantitative Researcher Intern, PhD or Postdoc | Quant | Singapore, Hong Kong, Shanghai, Sydney | — | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8168634) |
 | **Tower Research Capital** | Software Engineer, C++ - Graduate Opportunity | SWE | Hong Kong, Singapore | New Grad | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8245433) |
 
-### 🇸🇬 Singapore (70)
+### 🇸🇬 Singapore (68)
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
@@ -75,7 +75,6 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Amazon** | Data Center Infrastructure Engineering Intern, Colocation Regional Engineering | Hardware | Singapore | — | [Apply](https://www.amazon.jobs/en/jobs/10507775/data-center-infrastructure-engineering-intern-colocation-regional-engineering) |
 | **Amazon** | Software Developer Intern, Field Innovation, Security Search and Observability (SSO) | SWE | Singapore | — | [Apply](https://www.amazon.jobs/en/jobs/10544261/software-developer-intern-field-innovation-security-search-and-observability-sso) |
 | **Amazon** | Control Engineer Intern, AWS Data Center Controls Deployment & Services team | Hardware | Singapore | — | [Apply](https://www.amazon.jobs/en/jobs/10579407/control-engineer-intern-aws-data-center-controls-deployment-services-team) |
-| **AppLovin** | Machine Learning Engineering Intern (2027 Summer Internship) | AI/ML | Singapore | Summer 2027 | [Apply](https://boards.greenhouse.io/applovin/jobs/4713038006?gh_jid=4713038006) |
 | **AppLovin** | Product Management Intern (2027 Summer Internship) | Product | Singapore | Summer 2027 | [Apply](https://boards.greenhouse.io/applovin/jobs/4713039006?gh_jid=4713039006) |
 | **Barclays** | Quantitative Analytics Associate Off Cycle Internship 2027 Singapore | Quant | Singapore, Marina Bay Financial Tower 2 | Off Cycle 2027 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Singapore-Marina-Bay-Financial-Tower-2/Quantitative-Analytics-Associate-Off-Cycle-Internship-2027-Singapore_JR-0000117563) |
 | **Citi** | Technology- Application Development, Summer Analyst, Singapore 2027 | SWE | Singapore  Singapore | 2027 | [Apply](https://citi.wd5.myworkdayjobs.com/2/job/Singapore--Singapore/Technology--Application-Development--Summer-Analyst--Singapore-2027--_261005873) |
@@ -99,7 +98,6 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Micron** | Intern - Vertical Product Engineer (VPE) | SWE | MSB, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Vertical-Product-Engineer--VPE-_JR111178) |
 | **Micron** | Intern - Product Development Engineer | SWE | MSB, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Product-Development-Engineer_JR108915) |
 | **Micron** | Intern – Engineering Program Management | SWE | Fab 10A, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---Engineering-Program-Management_JR116075) |
-| **Micron** | Intern - AI Product Management | Product | Fab 10A, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---AI-Product-Management_JR112782) |
 | **Micron** | Intern - Engineer, Region E | SWE | Fab 10N/X, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Engineer--Region-E_JR115963) |
 | **Micron** 🆕 | Intern - HIG HBM Product System Engineering, Media Health Reliability | Hardware | Fab 10A, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---HIG-HBM-Product-System-Engineering--Media-Health-Reliability_JR114360) |
 | **Micron** 🆕 | Intern - HIG HBM Product & System Engineering, Media Health Reliability | Hardware | Fab 10A, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---HIG-HBM-Product---System-Engineering--Media-Health-Reliability_JR114368) |
@@ -167,7 +165,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Palantir** | Forward Deployed Software Engineer, New Grad - Commercial | SWE | Seoul, South Korea | New Grad | [Apply](https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253) |
 | **Sendbird** | AI Agent Engineer, Intern | AI/ML | Seoul, South Korea | — | [Apply](https://sendbird.com/careers?gh_jid=8276676002) |
 
-<details><summary>🔒 Closed postings (15)</summary>
+<details><summary>🔒 Closed postings (17)</summary>
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
@@ -175,12 +173,14 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **AIA** 🆕 | AI Engineering Intern | AI/ML | Singapore, SG-AIA Singapore | — | 🔒 Closed |
 | **AIA** 🆕 | Advanced Operations Solutions (Systems), Intern | SWE | Singapore, SG-AIA Singapore | — | 🔒 Closed |
 | **AIA** 🆕 | Security Awareness Intern | SWE | Singapore, SG-AIA Singapore | — | 🔒 Closed |
+| **AppLovin** | Machine Learning Engineering Intern (2027 Summer Internship) | AI/ML | Singapore | Summer 2027 | 🔒 Closed |
 | **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | 🔒 Closed |
 | **Bybit** | Mobile Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
 | **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
 | **FuriosaAI** | [신입/경력] Hardware Engineer (석사/박사) | Hardware | Seoul, South Korea | New Grad | 🔒 Closed |
 | **HeyGen** | Software Engineer Intern (Winter 2027) | SWE | Toronto, Los Angeles, San Francisco, Toronto, Singapore | Winter 2027 | 🔒 Closed |
 | **HP** | College Intern - Agentic AI Engineering | AI/ML | Singapore, South West, Singapore | — | 🔒 Closed |
+| **Micron** | Intern - AI Product Management | Product | Fab 10A, Singapore | — | 🔒 Closed |
 | **Micron** | Intern - Package Development Engineering | Hardware | MSB, Singapore | — | 🔒 Closed |
 | **Micron** 🆕 | Intern - Firmware and Product Test Engineer | Hardware | MSB, Singapore | — | 🔒 Closed |
 | **Schonfeld** | 2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern | Quant | Hong Kong, Hong Kong | 2027 | 🔒 Closed |
