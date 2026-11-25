@@ -778,7 +778,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.greenhouse.io/krafton/jobs/8125444002",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -810,7 +810,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.greenhouse.io/krafton/jobs/8417764002",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -907,7 +907,7 @@
     ],
     "season": "Jan to Jun 2027",
     "url": "https://jobs.ashbyhq.com/airwallex/39651124-122a-4033-91a2-af2687b83441",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -923,7 +923,7 @@
     ],
     "season": "Summer 2027",
     "url": "https://jobs.ashbyhq.com/airwallex/6cdb0f39-234a-4234-b1f1-cb48a1fa2795",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2013,7 +2013,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971542101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2175,7 +2175,7 @@
     ],
     "season": "—",
     "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---MSB-Test-Engineering_JR111366",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-17"
   },
@@ -2403,5 +2403,37 @@
     "source": "auto",
     "deadline": "2026-12-13",
     "added": "2026-11-21"
+  },
+  {
+    "company": "Moloco",
+    "role": "QA Engineer Intern (3-month Internship)",
+    "category": "SWE",
+    "locations": [
+      "Seoul, Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/moloco/jobs/8215108003",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-25"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - MSB Process & Equipment Engineer",
+    "category": "Hardware",
+    "locations": [
+      "MSB, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---MSB-Process---Equipment-Engineer_JR110012",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-25"
   }
 ]
