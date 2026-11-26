@@ -9,7 +9,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 **Legend:** 🆕 added in the last 7 days · ⏰ deadline (🔥 = within 7 days) · 🛂 visa info · 🗣 extra language required · 🧪 assessment type — badges appear only when the info is known. Season `—` = not stated in the posting.
 
 <!-- TABLE:START -->
-**123 open** · 151 total · last updated 2026-11-25
+**127 open** · 155 total · last updated 2026-11-26
 
 ### 🇭🇰 Hong Kong (50)
 
@@ -18,8 +18,8 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Barclays** | Electronic Trading Associate Summer Internship Programme 2027 Hong Kong | Quant | Hong Kong, Cheung Kong Center | 2027 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Hong-Kong-Cheung-Kong-Center/Electronic-Trading-Associate-Summer-Internship-Programme-2027-Hong-Kong_JR-0000117566) |
 | **Barclays** | Quantitative Analytics Associate Off Cycle Internship 2027 Hong Kong | Quant | Hong Kong, Cheung Kong Center | Off Cycle 2027 | [Apply](https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Hong-Kong-Cheung-Kong-Center/Quantitative-Analytics-Associate-Off-Cycle-Internship-2027-Hong-Kong_JR-0000117565) |
 | **Bybit** | [Intern] Big Data Development Engineer Intern | Data | Hong Kong SAR | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/4971692101) |
-| **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101) |
 | **Bybit** | Mobile Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101) |
+| **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | [Apply](https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101) |
 | **DV Trading** | 2027 Quantitative Researcher Graduate (DV QES) | Quant | Hong Kong | New Grad 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4736954005) |
 | **DV Trading** | 2027 Quantitative Research Intern (DV QES) | Quant | Hong Kong | 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4733877005) |
 | **DV Trading** | 2027 Quantitative Trader Graduate (DV QES) | Quant | Hong Kong | New Grad 2027 | [Apply](https://job-boards.greenhouse.io/dvtrading/jobs/4691298005) |
@@ -66,7 +66,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Tower Research Capital** | Quantitative Researcher Intern, PhD or Postdoc | Quant | Singapore, Hong Kong, Shanghai, Sydney | — | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8168634) |
 | **Tower Research Capital** | Software Engineer, C++ - Graduate Opportunity | SWE | Hong Kong, Singapore | New Grad | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8245433) |
 
-### 🇸🇬 Singapore (61)
+### 🇸🇬 Singapore (62)
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
@@ -102,6 +102,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Micron** 🆕 | Intern - MSH Process & Equipment Engineering | Hardware | Fab 10A, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---MSH-PEE_JR116666) |
 | **Micron** 🆕 | Intern - Firmware and Product Test Engineer | Hardware | MSB, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---Firmware-and-Product-Test-Engineer_JR117289) |
 | **Micron** 🆕 | Intern - MSB Process & Equipment Engineer | Hardware | MSB, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/MSB-Singapore/Intern---MSB-Process---Equipment-Engineer_JR110012) |
+| **Micron** 🆕 | Intern – Yield Analysis & AI | AI/ML | Fab 10N/X, Singapore | — | [Apply](https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Yield-Analysis---AI_JR118367) |
 | **NVIDIA** | Research Intern, Robotics - 2027 | AI/ML | Singapore, Pasir Panjang | 2027 | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---2027_JR2028499) |
 | **NVIDIA** | Research Intern, Robotics — NVIDIA Research | AI/ML | Singapore, Pasir Panjang | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---NVIDIA-Research_JR2028498) |
 | **Palantir** | Software Engineer, Internship | SWE | Singapore, Singapore | — | [Apply](https://jobs.lever.co/palantir/3531977a-9b2f-40a0-a486-4eeb38e75fc1) |
@@ -132,7 +133,7 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Virtu Financial** | 2027 Internship - Quantitative Trading | Quant | Singapore | 2027 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/5208637002) |
 | **Virtu Financial** | 2027 Internship – Software Engineer | SWE | Singapore | 2027 | [Apply](https://job-boards.greenhouse.io/virtu/jobs/5513756002) |
 
-### 🇰🇷 South Korea (19)
+### 🇰🇷 South Korea (22)
 
 | Company | Role | Track | Location | Season | Link |
 |---|---|---|---|---|---|
@@ -144,14 +145,17 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Kakao (카카오)** | 생성형 모델 Research Engineer (Post-training) (신입/경력) | AI/ML | 판교 | New Grad | [Apply](https://careers.kakao.com/jobs/P-14581) |
 | **Kakao (카카오)** | LLM Research Engineer (Post-training) (신입/경력) | AI/ML | 판교 | New Grad | [Apply](https://careers.kakao.com/jobs/P-14558) |
 | **Kakao (카카오)** | LLM Research Engineer (Pre-training) (신입/경력) | AI/ML | 판교 | New Grad | [Apply](https://careers.kakao.com/jobs/P-14559) |
+| **Kakao (카카오)** 🆕 | Foundation Model Research Engineer_인턴 | SWE | 판교 | — | [Apply](https://careers.kakao.com/jobs/P-14593) |
+| **Kakao (카카오)** 🆕 | Multimodal LLM Application Research Engineer_인턴 | AI/ML | 판교 | — | [Apply](https://careers.kakao.com/jobs/P-14595) |
 | **KRAFTON** | [AI Frontier Div.] Research Assistant (일본어 능통자, 인턴) | AI/ML | Seoul, Seoul, South Korea | — | [Apply](https://job-boards.greenhouse.io/krafton/jobs/8908312002) |
 | **KRAFTON** | [AI Research Div.] Foundation Model Evaluation Engineer - 독자 AI 파운데이션 모델 (2년 이상 / 인턴) | AI/ML | Seoul | — | [Apply](https://job-boards.greenhouse.io/krafton/jobs/8632414002) |
 | **KRAFTON** | [AI Research Div.] Research Scientist Intern - 독자 AI 파운데이션 모델 (2년 이상 / 인턴) | AI/ML | Seoul | — | [Apply](https://job-boards.greenhouse.io/krafton/jobs/8401231002) |
 | **KRAFTON** | [AI Research Div.] Research Scientist - Specialized Model (2년 이상 / 인턴) | AI/ML | Seoul, Seoul, South Korea | — | [Apply](https://job-boards.greenhouse.io/krafton/jobs/8836426002) |
+| **KRAFTON** 🆕 | [AI Research Div.] Data Project Manager (경력무관 / 인턴) | AI/ML | Seoul, Seoul, South Korea | — | [Apply](https://job-boards.greenhouse.io/krafton/jobs/8798984002) |
 | **Moloco** | Machine Learning Engineer Intern (3-month Internship) | AI/ML | Seoul, Korea | — | [Apply](https://job-boards.greenhouse.io/moloco/jobs/8044892003) |
 | **Moloco** | Software Engineer Intern (3 months) | SWE | Seoul, Korea | — | [Apply](https://job-boards.greenhouse.io/moloco/jobs/8007407003) |
 | **Moloco** 🆕 | QA Engineer Intern (3-month Internship) | SWE | Seoul, Korea | — | [Apply](https://job-boards.greenhouse.io/moloco/jobs/8215108003) |
-| **NVIDIA** 🆕 | PhD Researcher Intern, World Foundation Models | SWE | Korea, Seoul | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Korea-Seoul/PhD-Researcher-Intern--World-Foundation-Models_JR2028487) |
+| **NVIDIA** | PhD Researcher Intern, World Foundation Models | SWE | Korea, Seoul | — | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Korea-Seoul/PhD-Researcher-Intern--World-Foundation-Models_JR2028487) |
 | **Palantir** | Forward Deployed Software Engineer, Internship - Commercial | SWE | Seoul, South Korea | — | [Apply](https://jobs.lever.co/palantir/2ad0ab10-34c3-410d-883b-8052864a95cd) |
 | **Palantir** | Forward Deployed Software Engineer, New Grad - Commercial | SWE | Seoul, South Korea | New Grad | [Apply](https://jobs.lever.co/palantir/341d5cae-a473-4813-9a6c-0f67fcc1b253) |
 | **Sendbird** | AI Agent Engineer, Intern | AI/ML | Seoul, South Korea | — | [Apply](https://sendbird.com/careers?gh_jid=8276676002) |
@@ -167,9 +171,9 @@ Updated **daily** — postings are pulled automatically from company job boards,
 | **Airwallex** | Software Engineer Intern (Jan to Jun 2027) | SWE | SG - Singapore | Jan to Jun 2027 | 🔒 Closed |
 | **Airwallex** | Software Engineer Intern (Summer 2027) | SWE | SG - Singapore | Summer 2027 | 🔒 Closed |
 | **AppLovin** | Machine Learning Engineering Intern (2027 Summer Internship) | AI/ML | Singapore | Summer 2027 | 🔒 Closed |
+| **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | 🔒 Closed |
 | **Bybit** | Mobile Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
 | **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR | — | 🔒 Closed |
-| **Bybit** | [Intern] Test Development Engineer Intern | SWE | Hong Kong SAR, Kuala Lumpur, Malaysia | — | 🔒 Closed |
 | **FuriosaAI** | [신입/경력] Hardware Engineer (석사/박사) | Hardware | Seoul, South Korea | New Grad | 🔒 Closed |
 | **FuriosaAI** | Systems Software Engineer (신입) | SWE | Seoul, South Korea | New Grad | 🔒 Closed |
 | **HeyGen** | Software Engineer Intern (Winter 2027) | SWE | Toronto, Los Angeles, San Francisco, Toronto, Singapore | Winter 2027 | 🔒 Closed |

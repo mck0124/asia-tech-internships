@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2047,7 +2047,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2435,5 +2435,70 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-25"
+  },
+  {
+    "company": "KRAFTON",
+    "role": "[AI Research Div.] Data Project Manager (경력무관 / 인턴)",
+    "category": "AI/ML",
+    "locations": [
+      "Seoul",
+      "Seoul, South Korea"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://job-boards.greenhouse.io/krafton/jobs/8798984002",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-26"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern – Yield Analysis & AI",
+    "category": "AI/ML",
+    "locations": [
+      "Fab 10N/X, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Yield-Analysis---AI_JR118367",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-26"
+  },
+  {
+    "company": "Kakao (카카오)",
+    "role": "Foundation Model Research Engineer_인턴",
+    "category": "SWE",
+    "locations": [
+      "판교"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://careers.kakao.com/jobs/P-14593",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-26"
+  },
+  {
+    "company": "Kakao (카카오)",
+    "role": "Multimodal LLM Application Research Engineer_인턴",
+    "category": "AI/ML",
+    "locations": [
+      "판교"
+    ],
+    "countries": [
+      "KR"
+    ],
+    "season": "—",
+    "url": "https://careers.kakao.com/jobs/P-14595",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-26"
   }
 ]
