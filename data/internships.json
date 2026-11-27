@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -1420,7 +1420,7 @@
     ],
     "season": "—",
     "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Engineer--Region-E_JR115963",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2047,7 +2047,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2500,5 +2500,53 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-26"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern - Data Scientist",
+    "category": "Data",
+    "locations": [
+      "Fab 10A, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10A-Singapore/Intern---Data-Scientist_JR118296",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-27"
+  },
+  {
+    "company": "KLA",
+    "role": "AI/ML Engineer (Internship)",
+    "category": "AI/ML",
+    "locations": [
+      "Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Singapore-Singapore/AI-ML-Engineer--Internship-_2643698",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-27"
+  },
+  {
+    "company": "KLA",
+    "role": "Electrical AI Robotic Engineer (Internship)",
+    "category": "AI/ML",
+    "locations": [
+      "Singapore, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Singapore-Singapore/Electrical-AI-Robotic-Engineer--Internship-_2643499",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-27"
   }
 ]
