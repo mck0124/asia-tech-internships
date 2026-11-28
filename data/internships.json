@@ -955,7 +955,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034554101",
-    "status": "open",
+    "status": "closed",
     "source": "auto",
     "added": "2026-11-13"
   },
@@ -2047,7 +2047,7 @@
     ],
     "season": "—",
     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/4971569101",
-    "status": "closed",
+    "status": "open",
     "source": "auto",
     "added": "2026-11-14"
   },
@@ -2548,5 +2548,21 @@
     "status": "open",
     "source": "auto",
     "added": "2026-11-27"
+  },
+  {
+    "company": "Micron",
+    "role": "Intern – Process Engineering Technician (CVD)",
+    "category": "Hardware",
+    "locations": [
+      "Fab 10N/X, Singapore"
+    ],
+    "countries": [
+      "SG"
+    ],
+    "season": "—",
+    "url": "https://micron.wd1.myworkdayjobs.com/External/job/Fab-10NX-Singapore/Intern---Process-Engineering-Technician--CVD-_JR117867",
+    "status": "open",
+    "source": "auto",
+    "added": "2026-11-28"
   }
 ]
